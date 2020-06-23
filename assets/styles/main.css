@@ -59,14 +59,15 @@ table {
 .clearfix:before, .clearfix:after {
     content: "";
     display: table;
-  }
+   }
 .clearfix:after {
     clear: both;
   }
-  body {
+  /* general */
+body {
       font-family: 'Source Sans Pro', sans-serif;
   }
-  p, h4 { 
+p, h4 { 
     color: #6C6C6C;
     font-size: 15px;
     line-height: 1.7;
@@ -75,6 +76,11 @@ table {
     text-decoration: none;
 }
   /* header */
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
 .container {
     max-width: 95%;
     margin: 0 auto;
@@ -100,11 +106,12 @@ table {
 }
 .nav a:hover {
     background-color: #197D62;
-    color: white;
-    
+    color: white;  
 }
 /*article main */
-
+img {
+    margin-top: 150.67px;
+}
 .article {
     background-color: #383838;
 }
